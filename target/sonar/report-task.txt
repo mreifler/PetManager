@@ -1,0 +1,6 @@
+projectKey=petmanager.maven:petmanager-app
+serverUrl=https://sonarqube.dev.ifs.hsr.ch
+serverVersion=7.1.0.11001
+dashboardUrl=https://sonarqube.dev.ifs.hsr.ch/dashboard/index/petmanager.maven:petmanager-app
+ceTaskId=AWkkOig0GPXTst8ZGEH9
+ceTaskUrl=https://sonarqube.dev.ifs.hsr.ch/api/ce/task?id=AWkkOig0GPXTst8ZGEH9

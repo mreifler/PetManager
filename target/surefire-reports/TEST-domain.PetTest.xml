@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="domain.PetTest" time="0.411" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/var/lib/jenkins/workspace/WeberAzureblue/target/test-classes:/var/lib/jenkins/workspace/WeberAzureblue/target/generated-classes/cobertura:/var/lib/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/var/lib/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/var/lib/jenkins/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar:/var/lib/jenkins/.m2/repository/org/wisdom-framework/sqlite-jdbc/3.8.7_1/sqlite-jdbc-3.8.7_1.jar:/var/lib/jenkins/.m2/repository/org/apache/felix/org.apache.felix.ipojo.annotations/1.12.1/org.apache.felix.ipojo.annotations-1.12.1.jar:/var/lib/jenkins/.m2/repository/org/wisdom-framework/abstract-jdbc-driver/0.5/abstract-jdbc-driver-0.5.jar:/var/lib/jenkins/.m2/repository/net/sourceforge/cobertura/cobertura/2.1.1/cobertura-2.1.1.jar:/var/lib/jenkins/.m2/repository/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/../lib/tools.jar:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/var/lib/jenkins/workspace/WeberAzureblue/target/surefire/surefirebooter1619107914861686396.jar /var/lib/jenkins/workspace/WeberAzureblue/target/surefire 2019-02-25T10-36-10_764-jvmRun1 surefire5521686420773325876tmp surefire_04990619204896708489tmp"/>
+    <property name="surefire.test.class.path" value="/var/lib/jenkins/workspace/WeberAzureblue/target/test-classes:/var/lib/jenkins/workspace/WeberAzureblue/target/generated-classes/cobertura:/var/lib/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/var/lib/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/var/lib/jenkins/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar:/var/lib/jenkins/.m2/repository/org/wisdom-framework/sqlite-jdbc/3.8.7_1/sqlite-jdbc-3.8.7_1.jar:/var/lib/jenkins/.m2/repository/org/apache/felix/org.apache.felix.ipojo.annotations/1.12.1/org.apache.felix.ipojo.annotations-1.12.1.jar:/var/lib/jenkins/.m2/repository/org/wisdom-framework/abstract-jdbc-driver/0.5/abstract-jdbc-driver-0.5.jar:/var/lib/jenkins/.m2/repository/net/sourceforge/cobertura/cobertura/2.1.1/cobertura-2.1.1.jar:/var/lib/jenkins/.m2/repository/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar:/var/lib/jenkins/.m2/repository/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/../lib/tools.jar:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/var/lib/jenkins/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre"/>
+    <property name="basedir" value="/var/lib/jenkins/workspace/WeberAzureblue"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/var/lib/jenkins/workspace/WeberAzureblue/target/surefire/surefirebooter1619107914861686396.jar"/>
+    <property name="sun.boot.class.path" value="/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/resources.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/rt.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/sunrsasign.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/jsse.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/jce.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/charsets.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/jfr.jar:/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="nobody"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.20.7-arch1-1-ARCH"/>
+    <property name="java.endorsed.dirs" value="/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/var/lib/jenkins/.m2/repository"/>
+    <property name="cobertura.report.format" value="xml"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="/var/lib/jenkins/workspace/WeberAzureblue"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="/var/lib/jenkins/tools/hudson.model.JDK/JDK/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="findAll" classname="domain.PetTest" time="0.342"/>
+  <testcase name="findByID" classname="domain.PetTest" time="0.016"/>
+  <testcase name="ownership" classname="domain.PetTest" time="0.01"/>
+  <testcase name="implementsEquals" classname="domain.PetTest" time="0.005"/>
+  <testcase name="petCreation" classname="domain.PetTest" time="0.011"/>
+</testsuite>
